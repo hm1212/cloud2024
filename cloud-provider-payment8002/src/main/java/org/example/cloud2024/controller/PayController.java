@@ -1,13 +1,13 @@
-package com.example.cloud2024.controller;
+package org.example.cloud2024.controller;
 
 import cloud2024.entities.Pay;
 import cloud2024.entities.dto.PayDto;
 import cloud2024.resp.ResultData;
 import cn.hutool.core.bean.BeanUtil;
-import com.example.cloud2024.service.PayService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import jakarta.annotation.Resource;
+import org.example.cloud2024.service.PayService;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.*;

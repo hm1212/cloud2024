@@ -1,4 +1,4 @@
-package com.example.cloud2024.service;
+package org.example.cloud2024.service;
 
 
 import cloud2024.entities.Pay;

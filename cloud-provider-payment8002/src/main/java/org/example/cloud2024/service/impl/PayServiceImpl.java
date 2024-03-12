@@ -1,10 +1,11 @@
-package com.example.cloud2024.service.impl;
+package org.example.cloud2024.service.impl;
 
 
 import cloud2024.entities.Pay;
-import com.example.cloud2024.mapper.PayMapper;
-import com.example.cloud2024.service.PayService;
+
 import jakarta.annotation.Resource;
+import org.example.cloud2024.mapper.PayMapper;
+import org.example.cloud2024.service.PayService;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: cloud-consumer-order
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
+      config:
+        profile-separator: '-'
+        format: yaml

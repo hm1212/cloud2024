@@ -1,4 +1,4 @@
-package com.example.cloud2024.entities;
+package cloud2024.entities;
 
 import io.swagger.v3.oas.annotations.media.Schema;
 
@@ -53,6 +53,7 @@ public class Pay {
     /**
      * 是否删除，0未删除，1删除
      */
+
     private Byte deleted;
 
     /**

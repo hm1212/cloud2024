@@ -1,4 +1,4 @@
-package com.example.cloud2024.mapper;
+package org.example.cloud2024.mapper;
 
 
 import cloud2024.entities.Pay;

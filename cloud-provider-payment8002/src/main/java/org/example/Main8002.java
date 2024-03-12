@@ -1,5 +1,4 @@
-package com.example.cloud2024;
-
+package org.example;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -9,15 +8,14 @@ import tk.mybatis.spring.annotation.MapperScan;
 
 /**
  * @Author hhmm
- * @date 2024/3/11
+ * @date 2024/3/12
  **/
 @SpringBootApplication
 @EnableDiscoveryClient
-@MapperScan("com.example.cloud2024.mapper")
 @RefreshScope
-public class Main8001 {
+@MapperScan("org.example.cloud2024.mapper")
+public class Main8002 {
     public static void main(String[] args) {
-
-        SpringApplication.run(Main8001.class);
+        SpringApplication.run(Main8002.class, args);
     }
 }

@@ -1,10 +1,13 @@
-package com.example.cloud2024.config;
+package cloud2024.config;
 
 import io.swagger.v3.oas.models.ExternalDocumentation;
 import io.swagger.v3.oas.models.OpenAPI;
 import io.swagger.v3.oas.models.info.Info;
 import org.springdoc.core.models.GroupedOpenApi;
 import org.springframework.context.annotation.Bean;
+
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * @Author hhmm
@@ -38,4 +41,5 @@ public class Swagger3Config {
                                       .description("")
                                       .url("https://www.baidu.com/"));
     }
+
 }
